@@ -6,10 +6,9 @@ html {
     color: rgba(0, 0, 0, 0.8);
 }
 
-.header-container,
-.footer-container{
+header,
+footer{
     background: #e78b63;
-
     padding:15px;
     height:50px;
     background-size:100%;
@@ -19,7 +18,7 @@ html {
     border-top: 1px solid rgba(0, 0, 0, 0.6);
 }
 
-.main-container{
+section{
     width: 720px; /* 1140px - 10% for margins */
     margin: 0 auto;
 }
@@ -28,14 +27,13 @@ img{
     width: 720px;
 }
 
-.footer-container{
+footer{
     position: fixed;
     bottom: 0;
     left: 0;
     bottom: 0;
     width: 100%;
 }
-
 
 h1{
     font-variant: small-caps;
