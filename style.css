@@ -1,6 +1,7 @@
 body{
     margin:0;
 }
+
 html {
     background-color: rgb(66, 143, 172);
     color: rgba(0, 0, 0, 0.8);
@@ -25,6 +26,10 @@ section{
 
 img{
     width: 720px;
+}
+
+a:hover{
+    font-weight: bold;
 }
 
 footer{
