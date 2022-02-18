@@ -1,0 +1,26 @@
+
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .item_contact{
+    width: 250px;
+    text-align: center;
+}
+
+.contact .spacer{
+    width: 150px;
+}
+
+h1{
+    font-size: 40px;
+    font-variant: small-caps;
+}
+.contact p{
+    font-size: 20px;
+    white-space:nowrap;
+}

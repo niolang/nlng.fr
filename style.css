@@ -3,33 +3,27 @@ Général - Organisation de la page
 ------------------------ */
 html {
     background-color: rgb(66, 143, 172);
-    color: rgba(0, 0, 0, 0.8);
+    color: white;
     height: 100%;
 }
-
 body{
     min-height: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
 }
-
 header, footer{
     background: #e78b63;
     padding: 20px;
     text-align: center;
-    border-top: 1px solid rgb(90, 90, 90);
-    border-bottom: 1px solid rgb(90, 90, 90);
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
 }
-
-
-
 section {
     flex: 1 0 auto;
     padding: 15px;
     margin: 0 auto;
 }
-
 
 /* ---------------------
 Bandeau de Navigation / Header 
@@ -39,10 +33,9 @@ header{
     align-items: baseline;
     justify-content: space-between;
 }
-
 nav a {
     transition: 0.3s ease;
-    color: #ffffff;
+    color: white;
     font-variant: small-caps;
     font-weight: bold;
     font-size: 25px;
@@ -53,11 +46,25 @@ nav a {
     margin: 0 20px;
 }
 nav a:hover {
-    border-top: 4px solid #ffffff;
-    border-bottom: 4px solid #ffffff;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
     padding: 6px 0; 
 }
-
 .logo{
     width: 1px;
+}
+
+section img{
+    border:2px solid #e78b63;
+}
+
+/* ---------------------
+Mise en formes spécifiques
+Listes 
+------------------------ */
+li{
+    list-style-type: circle;
+}
+li:visited{
+    color: white;
 }
