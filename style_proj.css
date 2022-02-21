@@ -1,67 +1,83 @@
 section{
     display: grid;
-    justify-content: center;
     grid-template-columns: repeat(3, [col] 320px ) ;
     grid-template-rows: repeat(3, [row] 280px ) ;
-    grid-gap: 10px;
+    grid-gap: 20px;
 } 
 
-
-
 .box {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    border-radius: 5px;
-    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
     border: 2px solid #e78b63;
-    z-index: 1;
+    margin: 0px;
 }
 
-.box:hover {
-    /*opacity: 0.2;*/
-    transition: 0.1s ease;
-    -webkit-filter: blur(5px);
-	filter: blur(5px);
-    /*backdrop-filter: blur(2px);*/
-    z-index: 2;
+.box figcaption {
+    position: absolute;
+    top: 85%;
+    right: 10px;
+    font-size: 1.5em;
+    font-weight: 700;
+    opacity: 0;
+    transition: opacity .2s ease;
 }
 
-h4{
-    z-index: 9999;
+.box img {
+    transition: .2s ease;
+}
+
+.box:hover img {
+    filter: blur(10px);
+}
+
+.box:hover figcaption {
+    opacity: 1;
 }
 
 .a {
-    background: url("img/imp3d_construct.jpg");
-    background-size: 720px;
     grid-column: col / span 2;
     grid-row: row ;
 }
+
 .b {
-    background: url("img/bg_construct.png");
-    background-size: 900px;
-    background-position-x: -350px;
     grid-column: col 3;
     grid-row: row / span 2 ;
 }
 .c {
-    background: url("img/lily58_1.png");
-    background-size: 550px;
-    background-position-x: -190px;
     grid-column: col ;
     grid-row: row 2 / span 2;
 }
 .d {
-    background: url("img/drone.png");
-    background-size: 400px;
     grid-column: col 2 ;
     grid-row: row 2 ;
 }
 
 .e {
-    background: url("img/soudfull.jpg");
-    background-size: 720px;
     grid-column: col 2 / span 2;
-    background-position-y: -190px;
     grid-row: row 3;
+}
+
+.a img{
+    width:100%;
+}
+
+.b img{
+    height:100%;
+    object-position: -280px;
+}
+
+.c img{
+    height:100%;
+    object-position: -190px;
+}
+
+.d img{
+    height:100%;
+    object-position: -20px;
+}
+
+.e img{
+    width:100%;
+    object-position: 0px -140px;
 }
