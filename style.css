@@ -6,6 +6,10 @@ html {
     color: white;
     height: 100%;
 }
+
+a{
+    color: white;
+}
 body{
     min-height: 100%;
     margin: 0;
