@@ -11,10 +11,10 @@
 <body>
     <?php include("divheader.php"); ?>
     <section>
-        <h1>En construction</h1>
+        <h1>Bienvenue!</h1>
         <img class="borderedimg" src="img/imp3d_construct.jpg" />
-        <p>Pour commencer à voir quelques projets sur lesquels j'ai travaillé, c'est <a href="/projets.php">ICI</a>
-            <br />En attendant la suite, quelques-uns sont aussi disponible par ici :
+        <p>Pour voir quelques projets sur lesquels j'ai travaillé, c'est <a href="/projets.php">ICI</a>
+            <br />D'autres sont aussi disponible par ici :
         <ul>
             <li><a href=https://github.com/niolang>Github</a></li>
             <li><a href=https://www.thingiverse.com/momomoss/designs>Thingiverse</a></li>

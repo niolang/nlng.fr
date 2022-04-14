@@ -14,7 +14,7 @@
 
     <section>
         <h1>Clavier mécanique, ergonomique, disposition Bépo</h1>
-        <p class="links">le lien vers mon layout personnel pour l'excellent QMK firmware : <a href="https://github.com/qmk/qmk_firmware/tree/master/keyboards/lily58/keymaps/niolang">ICI</a>
+        <p class="links">le lien vers mon layout personnel pour l'excellent QMK firmware : <a href="https://github.com/niolang/qmk_firmware/tree/master/keyboards/lily58/keymaps/niolang">ICI</a>
         </p>
         <img class="borderedimg" src="/img/mecboard/lily58_1.png" />
         <p>L'été dernier, à la recherche d'exercices pour améliorer ma vitesse de frappe, je tombe sur des informations sur la disposition Bépo.

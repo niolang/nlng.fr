@@ -32,8 +32,10 @@
       </a>
     </figure>
     <figure class="box d">
-      <img src="img/drone.png">
-      <figcaption>Quadcopter FPV</figcaption>
+      <a href="proj/quadcopter.php">
+        <img src="img/drone.png">
+        <figcaption>Quadcopter FPV</figcaption>
+      </a>
     </figure>
     <figure class="box e">
       <img src="img/soudfull.jpg">
