@@ -38,8 +38,10 @@
       </a>
     </figure>
     <figure class="box e">
-      <img src="img/soudfull.jpg">
-      <figcaption>Électronique</figcaption>
+      <a href="proj/elec_domo.php">
+        <img src="img/soudfull.jpg">
+        <figcaption>Électronique</figcaption>
+      </a>
     </figure>
   </section>
 
