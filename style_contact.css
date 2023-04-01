@@ -24,3 +24,8 @@ h1{
     font-size: 20px;
     white-space:nowrap;
 }
+
+.coffee{
+    display: flex;
+    justify-content: center;
+}

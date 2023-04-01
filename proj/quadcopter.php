@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>N LNG</title>
-    <meta name="description" content="Site portfolio de N LNG">
+    <meta name="description" content="Site portfolio de N LNG - projet quadcopter">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../style_art.css">
 </head>
@@ -13,49 +13,42 @@
     <?php include("../divheader.php"); ?>
 
     <section>
-        <h1>Clavier mécanique, ergonomique, disposition Bépo</h1>
-        <p class="links">le lien vers mon layout personnel pour l'excellent QMK firmware : <a href="https://github.com/niolang/qmk_firmware/tree/master/keyboards/lily58/keymaps/niolang">ICI</a>
-        </p>
-        <img class="borderedimg" src="/img/mecboard/lily58_1.png" />
-        <p>L'été dernier, à la recherche d'exercices pour améliorer ma vitesse de frappe, je tombe sur des informations sur la disposition Bépo.
-            <br />Je vous passe l'histoire, même si je vous invite vivement à aller jeter un oeil là : <a href="https://bepo.fr/">bépo.fr</a>
-            <br />Et comme une image vaut mieux qu'un long discours :
-        </p>
-        <img class="borderedimg" src="https://download.tuxfamily.org/dvorak/wiki/images/thumb/Stats-lignes-mains-flat.png/300px-Stats-lignes-mains-flat.png" />
-        <p>L'inconvénient c'est qu'il est très difficile de trouver un clavier en disposition bépo...
-            <br />L'avantage c'est qu'on se force à apprendre à taper sans regarder :)
-        </p>
-        <p>Et puis une fois lancé -dans la douleur très honnêtement après 20ans d'azerty...- j'y prends très vite goût et on se rend très vite compte
-            que c'est une hérésie de forcer tout le monde à taper sur azerty.
-            <br />Bien sûr les lettres de la rangée du milieu sont très bien placées, mais le é . , ; @ et j'en passe, accessibles directement,
-            c'est un aller sans retour!
-            <br />Je pense d'ailleurs que je me permets de taper un français bien plus correct désormais (j'avais abandonné le ç sur azerty par exemple)
-        </p>
-        <p>Mais bien sûr quand on commence à s'intéresser à la frappe au clavier on met aussi très vite le doigt dans un engrenage aussi couteux en
-            temps qu'en euros : <strong>Les claviers!</strong>
-            <br />Alors je ne vais faire qu'un résumé de mes tergiversations, mais quand, comme pour les imprimantes 3D, suite à une discussion pour sur Leboncoin
-            avec un vendeur d'un typematrix2030, j'ai compris qu'il était possible de monter le sien... Un monde de plus s'est ouvert à moi!
-            <br />Et me voilà donc en quête de nouveaux composants à choisir et à souder!
-            <br />pour monter mon lily58 pro, un clavier mécanique, ergonomique, orthogonal et opensource dont les plans sont <a href="https://github.com/kata0510/Lily58">ICI</a>
-        </p>
-        <img class="borderedimg" src="/img/mecboard/mecboard_01.jpg" />
-        <p></p>
-        <img class="borderedimg" src="/img/mecboard/mecboard_03.jpg" />
-        <p></p>
-        <img class="borderedimg" src="/img/mecboard/mecboard_06.jpg" />
-        <p></p>
-        <img class="borderedimg" src="/img/mecboard/mecboard_09.jpg" />
-        <p></p>
-        <p>Le clavier est géré par deux Arduino pro micro, sur lequel on vient flasher l'incroyable QMK Firmware :
-            <br />- communauté incroyable
-            <br />- manuel très bien expliqué
-            <br />- et je n'ai sans doute vu qu'1/10ème des fonctionnalités...
-            <br />Mais il faut au moins ça quand on passe de 110 touches à 58!
-            <br />Bref, voilà mon petit réglage perso :
-        </p>
-        <img class="borderedimg" src="/img/mecboard/mecboard_qmk.png" />
-        <p></p>
 
+        <h1>Quadcopter, hélices et soudure</h1>
+        <p class="links">quelques photos sur flickr : <a href="https://flic.kr/s/aHskpLGJmB">ICI</a></p>
+        <p>Quelques lignes sur les quadcopters (le “vrai” terme pour ces petits drones radiocommandés à 4 hélices),
+            surtout quelques photos,
+            <br />du premier :
+        </p>
+        <img class="borderedimg" src="/img/quad/zmr_radio.jpg" />
+        <p>Un ZMR250 : petite enclume très solide et stable donc parfaite pour débuter.
+            En plus ce chassis est assez “spacieux” pour y mettre facilement tout l’électronique,
+            ce qui permet de mettre des composants plus volumineux, souvent moins chers (et il y a un peu de casse quand on débute !).</p>
+        <img class="borderedimg" src="/img/quad/zmr_montage.jpg" />
+        <p>Une petite vidéo, ni digne d’un montage de Oka media, ni du pilotage de Tomz FPV.
+            Mais qui donne une petite idée de ce qu’est le pilotage en FPV après une petite trentaine d’hélices cassées</p>
+        <iframe class="borderedimg" width="720" height="480" src="https://www.youtube.com/embed/m4iAouV76BI" frameborder="0" allowfullscreen></iframe>
+        <p>Et puis comme toujours on se prend au jeu, je me dis que je vais juste changer le chassis, pour voir,
+            et puis une nouvelle carte mère ce serait sympa pour l’alléger, et du coup pour finir le panier une autre caméra, bref...</p>
+        <p>Le deuxième de la famille, un GEPRC LX5 :</p>
+        <img class="borderedimg" src="/img/quad/geprc_lx5.jpg" />
+        <p>Sans regret, il est vraiment un cran au dessus en terme de fluidité de pilotage, même avec moteurs/hélices/batteries identiques.
+            Comme quoi la répartition des masses ca joue :)
+            <br />
+            <br />Il y aurait encore plusieurs jolis paragraphes à faire sur la gestion du firmware via des
+            logiciels opensource, très joliments finis... Les réglages de Pid, la configuration de la radio,
+            ou encore la transmission vidéo avec un minimum de latence sur un engin qui vole facilement à 70
+            km/h avec des vibrations de dingues.
+            Mais sachant que je n’ai rien reconfiguré depuis plusieurs années, les outils n’ont sûrement plus grand chose à voir.
+            <br />
+            <br />Une seconde vidéo, avec cette fois l’image enregistré directement dans le casque de fpv,
+            donc le vrai direct qui permet (ou pas...) de piloter, et non la gopro qui fait des jolies (ou pas...)
+            images depuis le dos de l’engin.
+        </p>
+        <iframe class="borderedimg" width="720" height="480" src="https://www.youtube.com/embed/oAW4aHs6sHw" frameborder="0" allowfullscreen></iframe>
+        <p>Et une petite photo du 3ème, un petite mouche de 95mm, rigolote mais qui va vite finir sur leboncoin vu le peu que je l’utilise...</p>
+        <p>image à venir</p>
+        <img class="borderedimg" src="/img/quad/geplx_furibee95.jpg" />
     </section>
 
     <?php include("../divfooter.php"); ?>

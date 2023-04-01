@@ -15,7 +15,9 @@
     <section>
         <h1>Une question?</h1>
         <h1>Envie de partager sur un sujet?</h1>
+        <div class="coffee"><img src="img/coffee_lite.png"></div>
         <div class="contact">
+            
             <div class="item_contact">
                 <p><a href="https://www.linkedin.com/in/nlng/"><img src="img/lnkdn.png"></a>
                 </p>
