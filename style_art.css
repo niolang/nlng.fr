@@ -1,5 +1,5 @@
 section {
-    width: 750px;
+    width: 720px;
     margin: 0 auto;
 }
 
@@ -16,5 +16,14 @@ img{
 
 img {
     display: block;
-    margin: auto;
+    margin: 0 auto;
   }
+
+iframe {
+    display: block;
+    margin: 0 auto;
+  }
+
+p{
+    text-align: justify;
+}

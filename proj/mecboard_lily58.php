@@ -13,53 +13,49 @@
     <?php include("../divheader.php"); ?>
 
     <section>
-        <h1>Impression 3D</h1>
-        <p class="links">quelques photos sur flickr : <a href="https://flic.kr/s/aHsm9n4NcK">ICI</a>
-            <br />quelques modèles partagés sur Thingiverse : <a href="https://www.thingiverse.com/momomoss/designs">ICI</a>
+        <h1>Clavier mécanique, ergonomique, disposition Bépo</h1>
+        <p class="links">le lien vers mon layout personnel pour l'excellent QMK firmware : <a href="https://github.com/qmk/qmk_firmware/tree/master/keyboards/lily58/keymaps/niolang">ICI</a>
         </p>
-        <p>Impossible de me souvenir ce qui me décide en 2017 de me lancer dans l'impression 3D
-            <br />Ma pratique du drone, les forums et autres pages facebook où commencent à fleurir des designs d’accessoires/protections/mods ?
-            <br />Marre de voir mes montages d’arduino prendre la poussière faute de boitier ?
-            <br />Le souhait de donner vie au dessins fait dans ma copie privée de Catia V6 ?
-            <br />Juste le plaisir d’un challenge technique et des heures de : soudure, montage, recherche et bidouillage à venir?
-            <br />sans doute un peu tout ça :)
+        <img class="borderedimg" src="/img/mecboard/lily58_1.png" />
+        <p>L'été dernier, à la recherche d'exercices pour améliorer ma vitesse de frappe, je tombe sur des informations sur la disposition Bépo.
+            <br />Je vous passe l'histoire, même si je vous invite vivement à aller jeter un oeil là : <a href="https://bepo.fr/">bépo.fr</a>
+            <br />Et comme une image vaut mieux qu'un long discours :
         </p>
-        <img class="borderedimg" src="../img/imp3d/imp3d_kit.png" />
-        <p>Évidemment je commence par me renseigner sur les imprimantes prêtes à l’emploi,
-            puis quand on me dit qu’il existe des projets opensource, avec tutoriel et liste complète de matériel, plus aucun doute :
-            <br /><strong>Je veux construire la mienne !</strong>
+        <img class="borderedimg" src="https://download.tuxfamily.org/dvorak/wiki/images/thumb/Stats-lignes-mains-flat.png/300px-Stats-lignes-mains-flat.png" />
+        <p>L'inconvénient c'est qu'il est très difficile de trouver un clavier en disposition bépo...
+            <br />L'avantage c'est qu'on se force à apprendre à taper sans regarder :)
         </p>
-        <img class="borderedimg" src="../img/imp3d/imp3d_montage.png" />
-        <p>Me voilà donc commençant par commander quelques pièces sur 3dHub pour rencontrer quelqu’un qui a une imprimante et s’en sert
-            <br />Puis trouver quelqu’un d’autre pour m’imprimer le kit de pièces de base
-            <br />et c’est partie pour un colis tous les deux jours, du paquet de 4 vis M4x30mm venu de l’autre bout du monde...
-            aux profilés alu coupés à deux pas, en passant par un extrudeur complet conçu et fabriqué outre manche.
+        <p>Et puis une fois lancé -dans la douleur très honnêtement après 20ans d'azerty...- j'y prends très vite goût et on se rend très vite compte
+            que c'est une hérésie de forcer tout le monde à taper sur azerty.
+            <br />Bien sûr les lettres de la rangée du milieu sont très bien placées, mais le é . , ; @ et j'en passe, accessibles directement,
+            c'est un aller sans retour!
+            <br />Je pense d'ailleurs que je me permets de taper un français bien plus correct désormais (j'avais abandonné le ç sur azerty par exemple)
         </p>
-        <img class="borderedimg" src="../img/imp3d/imp3d_montage0.png" />
+        <p>Mais bien sûr quand on commence à s'intéresser à la frappe au clavier on met aussi très vite le doigt dans un engrenage aussi couteux en
+            temps qu'en euros : <strong>Les claviers!</strong>
+            <br />Alors je ne vais faire qu'un résumé de mes tergiversations, mais quand, comme pour les imprimantes 3D, suite à une discussion pour sur Leboncoin
+            avec un vendeur d'un typematrix2030, j'ai compris qu'il était possible de monter le sien... Un monde de plus s'est ouvert à moi!
+            <br />Et me voilà donc en quête de nouveaux composants à choisir et à souder!
+            <br />pour monter mon lily58 pro, un clavier mécanique, ergonomique, orthogonal et opensource dont les plans sont <a href="https://github.com/kata0510/Lily58">ICI</a>
+        </p>
+        <img class="borderedimg" src="/img/mecboard/mecboard_01.jpg" />
         <p></p>
-        <img class="borderedimg" src="../img/imp3d/imp3d_e3d.png" />
-        <p>Rapidement les premières pièces sortent, et un nouveau monde s’ouvre à moi:)
+        <img class="borderedimg" src="/img/mecboard/mecboard_03.jpg" />
+        <p></p>
+        <img class="borderedimg" src="/img/mecboard/mecboard_06.jpg" />
+        <p></p>
+        <img class="borderedimg" src="/img/mecboard/mecboard_09.jpg" />
+        <p></p>
+        <p>Le clavier est géré par deux Arduino pro micro, sur lequel on vient flasher l'incroyable QMK Firmware :
+            <br />- communauté incroyable
+            <br />- manuel très bien expliqué
+            <br />- et je n'ai sans doute vu qu'1/10ème des fonctionnalités...
+            <br />Mais il faut au moins ça quand on passe de 110 touches à 58!
+            <br />Bref, voilà mon petit réglage perso :
         </p>
-        <img class="borderedimg" src="../img/imp3d/imp3d_impression.png" />
-        <p>Biensûr il y a l’utilisation de la machine, mais améliorer la machine elle-même fait une grande partie de mon plaisir :
-            <br />- changement du guidage du plateau
-            <br />- nouveau design d’extrudeur
-            <br />- des supports pour imprimer sur du verre
-            <br />- pièce perso pour remplacer le ventilateur de la hotend par un 40mm
-            <br />- …
-        </p>
-        <img class="borderedimg" src="../img/imp3d/imp3d_montagev2.png" />
-        <p>et puis nouveau projet : <strong> si j’imprimais une imprimante avec mon imprimante!?</strong>
-            <br />et c’est partie pour la transformation de mon <a href="https://www.thingiverse.com/thing:1752766">hypercube de tech2c</a>
-            - déjà bien moddée - en Voron 1.6 aux dimensions atypiques.
-        </p>
-        <img class="borderedimg" src="../img/imp3d/imp3d_montagev3.png" />
-        <p>Voilà l’imprimante dans son jus actuel, opérationnelle dans mon garage, désormais contrôlée par une SKR v.1.4 avec un firmware klipper
-            et une interface fluidd, parce que modder le matériel c’est bien mais le soft c’est cool aussi !
-        </p>
-        <img class="borderedimg" src="../img/imp3d/gif_3dprint_salameche.gif" />
-        <p>to be continued… quand j’aurais décidé de mettre le budget pour une voron 2.4 ;)
-        </p>
+        <img class="borderedimg" src="/img/mecboard/mecboard_qmk.png" />
+        <p></p>
+
     </section>
 
     <?php include("../divfooter.php"); ?>

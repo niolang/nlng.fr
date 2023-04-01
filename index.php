@@ -11,15 +11,16 @@
 <body>
     <?php include("divheader.php"); ?>
     <section>
-        <h1>En construction</h1>
-        <img class="borderedimg" src="img/imp3d_construct.jpg" />
-        <p>Retrouvez très bientôt les projets qui me passionnent,
-            <br />En attendant, un avant-goût disponible par ici :
+        <h1>Bienvenue!</h1>
+        <a href="/projets.php"><img class="borderedimg" src="img/imp3d_construct.jpg" /></a>
+        <p>Pour voir quelques projets sur lesquels j'ai travaillé, c'est <a href="/projets.php">ICI</a>
+            <br />D'autres sont aussi disponible par ici :
         <ul>
             <li><a href=https://github.com/niolang>Github</a></li>
             <li><a href=https://www.thingiverse.com/momomoss/designs>Thingiverse</a></li>
             <li><a href=https://www.flickr.com/photos/146332824@N05>Flickr</a></li>
             <li><a href="https://www.linkedin.com/in/nlng/">Linkedin</a></li>
+            <li><a href="https://www.root-me.org/BepoMaster">Root-me</a></li>
         </ul>
         </p>
         <p>À très vite!

@@ -20,20 +20,28 @@
       </a>
     </figure>
     <figure class="box b">
-      <img src="img/bg_construct.png">
-      <figcaption>Impression 3D</figcaption>
+      <a href="proj/imp3d_art01.php">
+        <img src="img/bg_construct.png">
+        <figcaption>Impression 3D</figcaption>
+      </a>
     </figure>
     <figure class="box c">
-      <img src="img/lily58_1.png">
-      <figcaption>Clavier custom : Lily58</figcaption>
+      <a href="proj/mecboard_lily58.php">
+        <img src="img/lily58_1.png">
+        <figcaption>Clavier custom : Lily58</figcaption>
+      </a>
     </figure>
     <figure class="box d">
-      <img src="img/drone.png">
-      <figcaption>Quadcopter FPV</figcaption>
+      <a href="proj/quadcopter.php">
+        <img src="img/drone.png">
+        <figcaption>Quadcopter FPV</figcaption>
+      </a>
     </figure>
     <figure class="box e">
-      <img src="img/soudfull.jpg">
-      <figcaption>Électronique</figcaption>
+      <a href="proj/elec_domo.php">
+        <img src="img/soudfull.jpg">
+        <figcaption>Électronique</figcaption>
+      </a>
     </figure>
   </section>
 
